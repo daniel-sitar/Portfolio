@@ -2,11 +2,10 @@
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 400; 
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #F8F9FA;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -24,4 +23,15 @@
   button {
     background-color: #f9f9f9;
   }
+}
+@theme {
+  --color-obsidian-900: #212529;
+  --color-obsidian-800: #343A40;
+  --color-obsidian-700: #41474E;
+  --color-obsidian-600: #6C757D;
+  --color-obsidian-500: #ADB5BD;
+  --color-obsidian-400: #CED4DA;
+  --color-obsidian-300: #DEE2E6;
+  --color-obsidian-200: #E9ECEF;
+  --color-obsidian-100: #F8F9FA;
 }
