@@ -1,6 +1,6 @@
 <template>
     <div class="home">
-        <div class="bg-sky-500 h-screen w-screen grid grid-cols-10 grid-rows-10">
+        <div class="bg-slate-500 h-screen w-screen grid grid-cols-10 grid-rows-10 gap-4">
             <div class="col-span-1 row-span-10 bg-dark-400">
                 <div class="h-full bg-purple-900 grid grid-cols-3 grid-rows-5">
                     <div class="col-span-3 row-span-1 bg-red-500 items-center">
@@ -21,8 +21,8 @@
                 </div>
             </div>
             <div class="col-span-9 row-span-10 bg-red-300">
-
-            </div>
+                <p>hello</p>
+            </div>  
         </div>
     </div>
 </template>
